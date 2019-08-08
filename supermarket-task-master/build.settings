@@ -1,0 +1,18 @@
+settings={
+    iphone = {
+        xcassets = "Images.xcassets",
+        plist = {
+            UILaunchStoryboardName = "LaunchScreen",
+        },
+        ITSAppUsesNonExemptEncryption=false,
+    },
+    orientation =
+    {
+        default = "landscapeLeft",
+        supported = { "landscapeLeft", "landscapeRight" },
+    },
+    excludeFiles =
+    {
+      all = { "*.bck","img/unused/*" }
+    }
+}
